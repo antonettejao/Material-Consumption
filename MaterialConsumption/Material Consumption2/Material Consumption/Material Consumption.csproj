@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B51BC330-8520-4304-B071-1740CA6E8F50}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Material_Consumption</RootNamespace>
+    <AssemblyName>Material Consumption</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Forms\Approve.aspx" />
+    <Content Include="Forms\Register2.aspx" />
+    <Content Include="Forms\RequestSupply2.aspx" />
+    <Content Include="Forms\Supply Information2.aspx" />
+    <Content Include="Images\approve.gif" />
+    <Content Include="Forms\Batch.aspx" />
+    <Content Include="Forms\Batch2.aspx" />
+    <Content Include="Forms\Homepage1.aspx" />
+    <Content Include="Forms\Homepage2.aspx" />
+    <Content Include="Forms\Inventory.aspx" />
+    <Content Include="Forms\Inventory2.aspx" />
+    <Content Include="Forms\Log In.aspx" />
+    <Content Include="Forms\Main Page.aspx" />
+    <Content Include="Forms\Order.aspx" />
+    <Content Include="Forms\Order2.aspx" />
+    <Content Include="Forms\Records.aspx" />
+    <Content Include="Forms\Records2.aspx" />
+    <Content Include="Images\REJECT.gif" />
+    <Content Include="Forms\Requested Supplies.aspx" />
+    <Content Include="Forms\Supply Information.aspx" />
+    <Content Include="Forms\Supply.aspx" />
+    <Content Include="Forms\Supply2.aspx" />
+    <Content Include="Images\addbtn.gif" />
+    <Content Include="Images\anigif.gif" />
+    <Content Include="Images\BBBBBBBBBBBBB.gif" />
+    <Content Include="Images\botones %281%29.gif" />
+    <Content Include="Images\botones %282%29.gif" />
+    <Content Include="Images\botones %283%29.gif" />
+    <Content Include="Images\BOTOWNES %281%29.gif" />
+    <Content Include="Images\BOTOWNES %282%29.gif" />
+    <Content Include="Images\BOTOWNES %283%29.gif" />
+    <Content Include="Images\bowwwtun_03.gif" />
+    <Content Include="Images\bowwwtun_06.gif" />
+    <Content Include="Images\burton_03.gif" />
+    <Content Include="Images\burton_06.gif" />
+    <Content Include="Images\button.gif" />
+    <Content Include="Images\cancelbtn.gif" />
+    <Content Include="Images\deletebtn.gif" />
+    <Content Include="Images\homebtn.gif" />
+    <Content Include="Images\hompage_01.gif" />
+    <Content Include="Images\hompage_02.gif" />
+    <Content Include="Images\hompage_03.gif" />
+    <Content Include="Images\hompage_04.gif" />
+    <Content Include="Images\hompage_05.gif" />
+    <Content Include="Images\hompage_06.gif" />
+    <Content Include="Images\hompage_07.gif" />
+    <Content Include="Images\hompage_08.gif" />
+    <Content Include="Images\hompage_09.gif" />
+    <Content Include="Images\hompage_10.gif" />
+    <Content Include="Images\inventorybtn.gif" />
+    <Content Include="Images\inventory_01.gif" />
+    <Content Include="Images\inventory_02.gif" />
+    <Content Include="Images\inventory_03.gif" />
+    <Content Include="Images\log-in-form2_01.gif" />
+    <Content Include="Images\log-in-form2_02.gif" />
+    <Content Include="Images\log-in-form2_03.gif" />
+    <Content Include="Images\log-in-form2_04.gif" />
+    <Content Include="Images\log-in-form2_05.gif" />
+    <Content Include="Images\log-in-form2_06.gif" />
+    <Content Include="Images\log-in-form2_07.gif" />
+    <Content Include="Images\log-in-form2_08.gif" />
+    <Content Include="Images\log-in-form2_09.gif" />
+    <Content Include="Images\log-in-form2_10.gif" />
+    <Content Include="Images\log-in-form2_11.gif" />
+    <Content Include="Images\log-in-form2_13.gif" />
+    <Content Include="Images\log-in-form2_14.gif" />
+    <Content Include="Images\log-in-form2_15.gif" />
+    <Content Include="Images\log-in-form2_16.gif" />
+    <Content Include="Images\log-in-form_01.gif" />
+    <Content Include="Images\log-in-form_02.gif" />
+    <Content Include="Images\log-in-form_03.gif" />
+    <Content Include="Images\log-in-form_04.gif" />
+    <Content Include="Images\log-in-form_05.gif" />
+    <Content Include="Images\log-in-form_06.gif" />
+    <Content Include="Images\log-in-form_07.gif" />
+    <Content Include="Images\log-in-form_08.gif" />
+    <Content Include="Images\log-in-form_09.gif" />
+    <Content Include="Images\log-in-form_10.gif" />
+    <Content Include="Images\log-in-form_11.gif" />
+    <Content Include="Images\log-in-form_12.gif" />
+    <Content Include="Images\log-in-form_13.gif" />
+    <Content Include="Images\log-in-form_14.gif" />
+    <Content Include="Images\log-in-form_15.gif" />
+    <Content Include="Images\log-in-form_16.gif" />
+    <Content Include="Images\log-in-form_17.gif" />
+    <Content Include="Images\log-in-form_18.gif" />
+    <Content Include="Images\log-in-form_19.gif" />
+    <Content Include="Images\log-in-form_20.gif" />
+    <Content Include="Images\log-in-form_21.gif" />
+    <Content Include="Images\log-in-form_22.gif" />
+    <Content Include="Images\log-in-form_23.gif" />
+    <Content Include="Images\log-in-form_24.gif" />
+    <Content Include="Images\loginbtn.gif" />
+    <Content Include="Images\Mian-page_01.gif" />
+    <Content Include="Images\Mian-page_02.gif" />
+    <Content Include="Images\Mian-page_03.gif" />
+    <Content Include="Images\Mian-page_04.gif" />
+    <Content Include="Images\Mian-page_05.gif" />
+    <Content Include="Images\Mian-page_07.gif" />
+    <Content Include="Images\okbtn.gif" />
+    <Content Include="Images\ORDER2_03.gif" />
+    <Content Include="Images\ORDER2_06.gif" />
+    <Content Include="Images\orderbtn.gif" />
+    <Content Include="Images\ORDER_03.gif" />
+    <Content Include="Images\ORDER_06.gif" />
+    <Content Include="Images\register_01.gif" />
+    <Content Include="Images\register_02.gif" />
+    <Content Include="Images\register_03.gif" />
+    <Content Include="Images\register_04.gif" />
+    <Content Include="Images\register_05.gif" />
+    <Content Include="Images\register_06.gif" />
+    <Content Include="Images\register_07.gif" />
+    <Content Include="Images\register_08.gif" />
+    <Content Include="Images\register_09.gif" />
+    <Content Include="Images\register_10.gif" />
+    <Content Include="Images\register_11.gif" />
+    <Content Include="Images\register_12.gif" />
+    <Content Include="Images\register_13.gif" />
+    <Content Include="Images\register_14.gif" />
+    <Content Include="Images\register_15.gif" />
+    <Content Include="Images\register_16.gif" />
+    <Content Include="Images\register_17.gif" />
+    <Content Include="Images\register_18.gif" />
+    <Content Include="Images\register_19.gif" />
+    <Content Include="Images\register_20.gif" />
+    <Content Include="Images\register_21.gif" />
+    <Content Include="Images\register_22.gif" />
+    <Content Include="Images\register_23.gif" />
+    <Content Include="Images\register_24.gif" />
+    <Content Include="Images\register_25.gif" />
+    <Content Include="Images\register_26.gif" />
+    <Content Include="Images\register_27.gif" />
+    <Content Include="Images\register_28.gif" />
+    <Content Include="Images\register_29.gif" />
+    <Content Include="Images\register_30.gif" />
+    <Content Include="Images\register_31.gif" />
+    <Content Include="Images\register_32.gif" />
+    <Content Include="Images\register_33.gif" />
+    <Content Include="Images\searchbtn.gif" />
+    <Content Include="Images\spacer.gif" />
+    <Content Include="Images\Supply-Information.gif" />
+    <Content Include="Images\Supply-Name.gif" />
+    <Content Include="Images\supplybtn.gif" />
+    <Content Include="Images\tabbed-order_03.gif" />
+    <Content Include="Images\tabbed_01.gif" />
+    <Content Include="Images\tabbed_02.gif" />
+    <Content Include="Images\tabbed_03.gif" />
+    <Content Include="Images\tabbed_04.gif" />
+    <Content Include="Images\tabbed_05.gif" />
+    <Content Include="Images\updatebtn.gif" />
+    <Content Include="Images\view.gif" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BatchofSupplies.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Forms\Approve.aspx.cs">
+      <DependentUpon>Approve.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Approve.aspx.designer.cs">
+      <DependentUpon>Approve.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Batch.aspx.cs">
+      <DependentUpon>Batch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Batch.aspx.designer.cs">
+      <DependentUpon>Batch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Batch2.aspx.cs">
+      <DependentUpon>Batch2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Batch2.aspx.designer.cs">
+      <DependentUpon>Batch2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Class1.cs" />
+    <Compile Include="Forms\Homepage1.aspx.cs">
+      <DependentUpon>Homepage1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Homepage1.aspx.designer.cs">
+      <DependentUpon>Homepage1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Homepage2.aspx.cs">
+      <DependentUpon>Homepage2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Homepage2.aspx.designer.cs">
+      <DependentUpon>Homepage2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inventory.aspx.cs">
+      <DependentUpon>Inventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Inventory.aspx.designer.cs">
+      <DependentUpon>Inventory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inventory2.aspx.cs">
+      <DependentUpon>Inventory2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Inventory2.aspx.designer.cs">
+      <DependentUpon>Inventory2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Log In.aspx.cs">
+      <DependentUpon>Log In.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Log In.aspx.designer.cs">
+      <DependentUpon>Log In.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main Page.aspx.cs">
+      <DependentUpon>Main Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Main Page.aspx.designer.cs">
+      <DependentUpon>Main Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Order.aspx.cs">
+      <DependentUpon>Order.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Order.aspx.designer.cs">
+      <DependentUpon>Order.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Order2.aspx.cs">
+      <DependentUpon>Order2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Order2.aspx.designer.cs">
+      <DependentUpon>Order2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Records.aspx.cs">
+      <DependentUpon>Records.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Records.aspx.designer.cs">
+      <DependentUpon>Records.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Records2.aspx.cs">
+      <DependentUpon>Records2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Records2.aspx.designer.cs">
+      <DependentUpon>Records2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Register.cs" />
+    <Compile Include="Forms\Register2.aspx.cs">
+      <DependentUpon>Register2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Register2.aspx.designer.cs">
+      <DependentUpon>Register2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Request2.cs" />
+    <Compile Include="Forms\Requested Supplies.aspx.cs">
+      <DependentUpon>Requested Supplies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Requested Supplies.aspx.designer.cs">
+      <DependentUpon>Requested Supplies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RequestSupply2.aspx.cs">
+      <DependentUpon>RequestSupply2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\RequestSupply2.aspx.designer.cs">
+      <DependentUpon>RequestSupply2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Supply Information.aspx.cs">
+      <DependentUpon>Supply Information.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Supply Information.aspx.designer.cs">
+      <DependentUpon>Supply Information.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Supply Information2.aspx.cs">
+      <DependentUpon>Supply Information2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Supply Information2.aspx.designer.cs">
+      <DependentUpon>Supply Information2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Supply.aspx.cs">
+      <DependentUpon>Supply.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Supply.aspx.designer.cs">
+      <DependentUpon>Supply.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Supply2.aspx.cs">
+      <DependentUpon>Supply2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Supply2.aspx.designer.cs">
+      <DependentUpon>Supply2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Proj.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Request.cs" />
+    <Compile Include="Supply.cs" />
+    <Compile Include="validation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Jquery\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2309</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
